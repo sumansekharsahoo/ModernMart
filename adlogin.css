@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    /* font-family: 'Cuprum', sans-serif; */
+    display: flex;
+    align-items: center;
+}
+
+.clogin-left {
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.clogin-right {
+    background-color: rgb(253, 31, 27);
+    width: 45vw;
+    height: 100vh;
+    /* font-family: 'Syncopate', sans-serif;*/
+    font-family: 'Days One', sans-serif;
+    font-weight: bolder;
+
+}
+
+.clogin-logo {
+    width: 18vw;
+    display: inline-block;
+    margin: 2vh;
+}
+
+.clogin-ad {
+    margin: .2vh 13vh;
+    width: 85vh
+}
+
+/* cloginright stylings */
+.clogin-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.login {
+    color: yellow;
+    font-size: 6vh;
+    margin-top: 17vh;
+    margin-bottom: 4vh;
+    margin-left: 60px;
+}
+
+input[type=text] {
+    width: 450px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 60px;
+    box-sizing: border-box;
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 10px;
+}
+
+input[type=text]::placeholder {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+}
+
+
+input[type=password] {
+    width: 450px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 60px;
+    box-sizing: border-box;
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 10px;
+}
+
+input[type=password]::placeholder {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(37, 37, 37);
+    font-size: 18px;
+}
+
+input[type=submit] {
+    padding: 12px 20px;
+    background-color: rgb(255, 242, 0);
+    font-family: 'Days One', sans-serif;
+    margin: 8px 60px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.admin-and-fpass {
+    width: 550px;
+    margin-top: 10px;
+}
+
+.option-list {
+    color: rgb(17, 17, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-position: inside;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(17, 17, 255);
+}
+
+.sign-up {
+    margin-top: 35px;
+}
+
+.new-user {
+    color: yellow;
+    font-size: 5.3vh;
+    margin-bottom: 1.8vh;
+}
+
+.csign-up {
+    padding: 12px 20px;
+    background-color: rgb(255, 242, 0);
+    font-family: 'Days One', sans-serif;
+    margin: 8px 50px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    font-size: 27px;
+    cursor: pointer;
+}

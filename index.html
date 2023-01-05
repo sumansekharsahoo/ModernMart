@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Mart</title>
+    <link
+      rel="shortcut icon"
+      href="favicon_io/favicon-16x16.png"
+      type="image/png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="clogin-left">
+      <a href="index.html"
+        ><img src="images/website_logo.png" alt="MM-Logo" class="clogin-logo"
+      /></a>
+      <img src="images/customer_login.png" alt="welcome-ad" class="clogin-ad" />
+    </div>
+    <div class="clogin-right">
+      <h1 class="welcome">WELCOME</h1>
+      <div class="login-box">
+        <h2 class="login">LOGIN</h2>
+        <!-- backend call -->
+        <form action="customer/chome.html" method="post" class="clogin-inputs">
+          <input
+            type="text"
+            name="cphone-no"
+            id="cphno"
+            placeholder="PHONE NUMBER"
+          />
+          <input
+            type="password"
+            name="cpassword"
+            id="cpwd"
+            placeholder="PASSWORD"
+          />
+
+          <a href="customer/chome.html">
+            <div class="sub">SUBMIT</div>
+          </a>
+        </form>
+      </div>
+      <div class="admin-and-fpass">
+        <ul class="option-list">
+          <li><a href="forgot-pwd.html">FORGOT PASSWORD?</a></li>
+          <li><a href="adminlogin.html">ADMIN LOGIN</a></li>
+        </ul>
+      </div>
+      <div class="sign-up">
+        <h2 class="new-user">NEW USER?</h2>
+        <a href="csignup.html"><button class="csign-up">SIGN UP</button></a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

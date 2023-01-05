@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(38, 38, 38);
+    /* font-family: 'Cuprum', sans-serif; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.clogin-logo {
+    width: 18vw;
+    display: inline-block;
+    margin: 2vh;
+}
+
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 38vw;
+    margin-top: 8vh;
+    margin-left: 31vw;
+    background-color: rgb(255, 179, 0);
+    border: 1px solid rgb(255, 196, 0);
+    border-radius: 29px;
+}
+
+.hrule {
+    width: 45vw;
+    height: 7px;
+    background-color: rgb(38, 38, 38);
+    margin-bottom: 20px;
+}
+
+.signup-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sup-head {
+    font-family: 'Days One', sans-serif;
+    font-weight: bolder;
+    font-size: 6vh;
+    color: rgb(32, 32, 32);
+
+}
+
+input[type=text] {
+    width: 480px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+input[type=text]::placeholder {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+}
+
+
+input[type=password] {
+    width: 480px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+input[type=password]::placeholder {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(57, 57, 57);
+    font-size: 18px;
+}
+
+#cadd {
+    height: 120px;
+}
+
+input[type=submit] {
+    padding: 12px 20px;
+    background-color: rgb(255, 242, 0);
+    font-family: 'Days One', sans-serif;
+    margin: 13px 0px 30px 0px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.options {
+    margin-left: 31vw;
+    margin-top: 3vh;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style-position: inside;
+}
+
+
+
+a {
+    text-decoration-line: none;
+    font-size: 3vh;
+    color: rgb(255, 235, 17);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(255, 235, 17);
+}

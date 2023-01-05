@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link
+      rel="shortcut icon"
+      href="favicon_io/favicon-16x16.png"
+      type="image/png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="csignup.css" />
+  </head>
+  <body>
+    <a href="index.html">
+      <img src="images/website_logo.png" alt="MM-Logo" class="clogin-logo"
+    /></a>
+
+    <div class="signup">
+      <h1 class="sup-head">SIGN UP</h1>
+      <div class="hrule"></div>
+      <!-- backend call -->
+      <form action="backend.java" class="signup-inputs">
+        <!-- creating these datas for first time -->
+        <!-- might need to change var name -->
+        <input
+          type="text"
+          name="username-inp"
+          id="cusername"
+          placeholder="USER NAME"
+        />
+        <input
+          type="text"
+          name="cphone-no-inp"
+          id="cphno"
+          placeholder="PHONE NUMBER"
+        />
+        <input
+          type="password"
+          name="cpassword-inp"
+          id="cpwd"
+          placeholder="PASSWORD"
+        />
+
+        <input type="text" name="caddress" id="cadd" placeholder="ADDRESS" />
+
+        <input type="submit" value="SUBMIT" />
+      </form>
+    </div>
+
+    <div class="options">
+      <ul class="option-list">
+        <li><a href="adsignup.html">SIGN UP AS ADMIN?</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

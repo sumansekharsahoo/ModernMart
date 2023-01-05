@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Sign up</title>
+    <link
+      rel="shortcut icon"
+      href="favicon_io/favicon-16x16.png"
+      type="image/png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="adsignup.css" />
+  </head>
+  <body>
+    <a href="index.html">
+      <img src="images/website_logo.png" alt="MM-Logo" class="clogin-logo" />
+    </a>
+    <div class="signup">
+      <h1 class="sup-head">ADMIN SIGN UP</h1>
+      <div class="hrule"></div>
+      <!-- backend call -->
+      <form action="backend.jsp" class="signup-inputs">
+        <!-- creating these datas for first time -->
+        <!-- might need to change var name -->
+        <input
+          type="text"
+          name="adname-inp"
+          id="adusername"
+          placeholder="ADMIN NAME"
+        />
+        <input
+          type="text"
+          name="adphone-no-inp"
+          id="adphno"
+          placeholder="PHONE NUMBER"
+        />
+        <input
+          type="password"
+          name="adpassword-inp"
+          id="adpwd"
+          placeholder="PASSWORD"
+        />
+        <input
+          type="password"
+          name="adpasskey-inp"
+          id="adpkey"
+          placeholder="PASS KEY"
+        />
+
+        <input type="submit" value="SUBMIT" />
+      </form>
+    </div>
+  </body>
+</html>
