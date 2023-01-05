@@ -1,6 +1,6 @@
  # Modern Mart
 - Partially done frontend                                                                                                                                                 
-- page-link: 
+- page-link: https://sumansekharsahoo.github.io/OOPs-Project-Frontend/
 
 (i) Login Page                                                                                                                                                
 (ii) Customer Signup Page                                                                                                                                                 
