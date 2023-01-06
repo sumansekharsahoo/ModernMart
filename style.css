@@ -184,3 +184,12 @@ a:visited {
     border-radius: 7px;
     visibility: hidden;
 }
+
+button{
+    transition: background-color .3s, color .3s,border-color .3s;
+}
+button:hover{
+    background-color: rgb(254, 254, 0);
+    border-color: rgb(179, 178, 178);
+    color: rgb(83, 83, 83);
+}
