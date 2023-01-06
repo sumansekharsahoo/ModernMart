@@ -160,3 +160,27 @@ a:visited {
         font-size: 23px;
         color: black;
 }
+
+.csubmit{
+    padding: 12px 13px;
+        background-color: rgb(255, 242, 0);
+        font-family: 'Days One', sans-serif;
+        margin: 8px 60px;
+        border: 3px solid rgb(0, 0, 0);
+        border-radius: 30px;
+        font-size: 23px;
+        cursor: pointer;
+}
+
+.fsub{
+    display: flex;
+    align-items: center;
+}
+
+.incpass{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(255, 213, 0);
+    padding: 5px 10px;
+    border-radius: 7px;
+    visibility: hidden;
+}
