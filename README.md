@@ -8,5 +8,8 @@
 (iv) Admin Login Page                                                                                                                                                
 (v) Customer Home Page                                                                                                                                                                                 
 
-Click SUBMIT on Login page to go to Customer Home Page                                                                                                                   
+Login Credentials:                                                                                                                                                       
+Phoneno: 8855                                                                                                                                                             
+Password: msuman                                                                                                                                                         
+
 <check "MODERN MART" pdf (above) to see how we planned to design our website>
