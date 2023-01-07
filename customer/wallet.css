@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+
+.wtext {
+    font-size: 7.8vh;
+    margin-left: .1vw;
+
+}
+
+.whead {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(255, 225, 0);
+    margin-bottom: 7vh;
+}
+
+ion-icon {
+    font-size: 4.7vh;
+    margin-top: .1vh;
+    margin-left: 5.5vw;
+}
+
+.wimg {
+    height: 7.2vh;
+    margin-top: 1vh;
+    margin-left: 42vw;
+}
+
+.wcard {
+    width: 50vw;
+    margin-top: 6vh;
+    margin-left: 25vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cbal {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cbaltxt {
+    font-size: 5vh;
+    color: white;
+    display: inline-block;
+    margin-left: 2vw;
+}
+
+.cbalamt {
+    font-size: 5vh;
+    color: rgb(255, 237, 71);
+    display: inline-block;
+    margin-right: 2vw;
+}
+
+
+
+.topup {
+    margin-top: 1.3vh;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(247, 250, 207);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tpamt {
+    margin-top: 3vh;
+    width: 100%;
+    height: auto;
+    background-color: #FAEAB1;
+    display: flex;
+    align-items: center;
+}
+
+.uname {
+    width: 100%;
+    height: auto;
+    background-color: #f4d29a;
+    display: flex;
+    align-items: center;
+}
+
+.pwd {
+    width: 100%;
+    height: auto;
+    background-color: #FAEAB1;
+    display: flex;
+    align-items: center;
+}
+
+.tpbtn {
+    margin-top: 4vh;
+    padding: 1vh 1.2vw 1vh 1vw;
+    height: 8vh;
+    background-color: rgb(55, 180, 46);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 3.3vh;
+    color: azure;
+}
+
+.tpbtn:hover {
+    transition: background-color .2s;
+    background-color: rgb(0, 196, 13);
+}
+
+.tpbtn:active {
+    /* transition: background-color .1s; */
+    background-color: rgb(73, 220, 83);
+}
+
+.tptxt {
+    margin-top: 1vh;
+    margin-left: 3vw;
+    width: 100%;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+
+}
+
+.toptxt {
+    font-size: 5vh;
+    margin-left: 1.5vh;
+}
+
+.rechg {
+    width: 9vh;
+
+}
+
+.spacenav {
+    width: 100vw;
+    height: 4.5vw;
+    background-color: blue;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(30, 30, 30);
+}
+
+.txt {
+    margin-left: 2.5vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 4vh;
+}
+
+
+.cur {
+    margin-left: 45px;
+    margin-right: 14px;
+    font-size: 5vh;
+}
+
+input[type=number] {
+    width: 20vw;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 10px;
+    font-size: 23px;
+}
+
+input[type=number]::placeholder {
+    color: rgb(124, 124, 124);
+    font-size: 2.6vh;
+}
+
+input[type=text] {
+    width: 20vw;
+    padding: 10px 20px;
+    margin: 8px 6px;
+    box-sizing: border-box;
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 10px;
+    font-size: 23px;
+}
+
+input[type=text]::placeholder {
+    color: rgb(124, 124, 124);
+    font-size: 2.6vh;
+}
+
+.ptxt {
+    margin-right: .15vw;
+}
+
+input[type=password] {
+    width: 20vw;
+    padding: 10px 20px;
+    margin: 8px 6px;
+    box-sizing: border-box;
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 10px;
+    font-size: 23px;
+}
+
+input[type=password]::placeholder {
+    color: rgb(124, 124, 124);
+    font-size: 2.6vh;
+}
+
+.rupee {
+    font-size: 5vh;
+    color: white;
+    display: inline-block;
+    margin-left: 23.5vw;
+}
+
+.psimg {
+    height: 30px;
+    margin-left: 90px;
+}
+
+.incpass{
+    background-color: rgb(255, 166, 57);
+    height: 6vh;
+    width: 16.8vw;
+    margin-left:42vw;
+    margin-top: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    visibility: hidden;
+    
+}

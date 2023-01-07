@@ -1,0 +1,122 @@
+<!-- used wallet icon -->
+<!-- used recharge icon -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wallet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="favicon_io/favicon-16x16.png"
+      type="image/png"
+    />
+
+
+    <!-- wallet css:link -->
+    <link rel="stylesheet" href="wallet.css" />
+  </head>
+  <body>
+    <!-- navbar component include -->
+    <!-- <div class="spacenav"></div> -->
+    <div class="whead">
+      <img src="wallet.png" alt="wallet" class="wimg" /><span class="wtext"
+        >&nbsp;Wallet</span
+      >
+    </div>
+    <div class="wcard">
+      <div class="cbal">
+        <h2 class="cbaltxt">Current Balance:</h2>
+        <span class="rupee">&#8377</span>
+        <h2 class="cbalamt">0</h2>
+      </div>
+      <div class="topup">
+        <div class="tptxt">
+          <img src="recharge.png" alt="recharge" class="rechg" /><span
+            class="toptxt"
+            >Topup Wallet</span
+          >
+        </div>
+        <div class="line"></div>
+        <div class="tpamt">
+          <span class="txt">Topup Amount:</span>
+          <span class="cur">&#8377</span>
+          <form class="fields">
+            <input
+              type="number"
+              name="amount"
+              id="amt"
+              placeholder="Amount in ₹"
+            />
+          </form>
+        </div>
+        <div class="uname">
+          <span class="txt">Username:</span>
+          <img src="username.png" alt="user" class="psimg">
+          <form class="fields">
+            <input
+              type="text"
+              name="username"
+              id="usname"
+              placeholder="Username"
+            />
+          </form>
+        </div>
+        <div class="pwd">
+          <span class="txt ptxt">Password:</span>
+          <img src="password.png" alt="pswd" class="psimg">
+          <form class="fields">
+            <input
+              type="password"
+              name="password"
+              id="pswd"
+              placeholder="Password"
+            />
+          </form>
+        </div>
+        <button class="tpbtn">SUBMIT</button>
+        
+      </div>
+      
+    </div>
+    <div class="incpass">
+      <h2>❌ Incorrect Credentials</h2>
+    </div>
+    <!-- wallet js -->
+    <script src="wallet.js"></script>
+
+    <!-- bootsprap js
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <!-- ionicons js -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
