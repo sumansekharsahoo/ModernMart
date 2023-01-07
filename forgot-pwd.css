@@ -81,7 +81,7 @@ input[type=text] {
     border-radius: 25px;
     margin-left: 6px;
     background-color: rgb(0, 214, 7);
-    transition: background-color .2s, color .2s, border-color .2s;
+    transition: background-color .15s, color .15s, border-color .15s;
 }
 
 .dsub:hover{
@@ -141,4 +141,31 @@ input[type=text] {
     margin-left: 18px;
     font-size: 28px;
     visibility: hidden;
+}
+
+.gohome{
+    margin-top: 18px;
+}
+.home{
+    font-size: 25px;
+    padding: 7px 9px;
+    color: white;
+    background-color: rgb(3, 202, 10);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color .15s;
+}
+
+.home:hover{
+    background-color: rgba(3, 202, 10, 0.858);
+}
+
+.home:active{
+    background-color: rgb(0, 214, 32);
+}
+
+.incdate{
+    visibility: hidden;
+    margin-top: 8px;
+    margin-left: 35%;
 }
