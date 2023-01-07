@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.mhead{
+    display: flex;
+}
 .content{
-    height: 80px;
-    width: 90px;
+    height: 11vh;
+    width: 5.5%;
     background-color: rgb(0, 0, 0);
+}
+.mheader{
+    height: 11vh;
+    width: 94.5%;
+    background-color: rgb(255, 225, 0);
+    display: flex;
+    align-items: center;
 }
 
 
@@ -10,4 +31,110 @@
     border-bottom: 1px solid transparent;
     background-color: rgba(241, 241, 241, 0.406);
     box-shadow: 0 0px 10px 3px #222;
+}
+
+.mbody{
+    display: flex;
+}
+
+.catg{
+    height: 89vh;
+    width: 17%;
+    background-color: rgb(247, 250, 207);
+    display: flex;
+    flex-direction: column;
+}
+.sepl2{
+    height: 89vh;
+    width:7.5px;
+    background-color: #222;
+}
+.sepl1{
+    height: 89vh;
+    width:7.5px;
+    background-color: rgb(16, 16, 16);
+}
+
+.wlctxt{
+    margin-left: 2px;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wlstar{
+    height: 40px;
+    margin-left: 5px;
+}
+
+.homelogo{
+    margin-left: 26vw;
+    height: 60px;
+}
+
+.hcart{
+    font-size: 30px;
+    margin-left: 29vw;
+    display: flex;
+    align-items: center;
+}
+
+.ion{
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+.pcard{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.phead{
+    width: 82.5vw;
+    height: 60px;
+    background-color: rgb(33, 33, 33);
+}
+
+.cathead{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cathtxt{
+    color: white;
+    font-size: 35px;
+}
+
+.cati{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.ctxt{
+    font-size: 30px;
+    margin-left: 12px;
+}
+
+.c2{
+    background-color: #FAEAB1;
+}
+.c1{
+    background-color: #f4d29a;
+}
+
+.ctop{
+    margin-top: 20px;
+}
+
+.c1:hover{
+    background-color: #dcbb85;
+}
+.c2:hover{
+    background-color: #e5d69e;
 }
