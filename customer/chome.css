@@ -41,19 +41,20 @@ body{
 }
 
 .catg{
-    height: 89vh;
+    height: 97.3vh;
+    
     width: 17%;
     background-color: rgb(247, 250, 207);
     display: flex;
     flex-direction: column;
 }
 .sepl2{
-    height: 89vh;
+    height: 97.3vh;
     width:7.5px;
     background-color: #222;
 }
 .sepl1{
-    height: 89vh;
+    height: 97.3vh;
     width:7.5px;
     background-color: rgb(16, 16, 16);
 }
@@ -175,11 +176,12 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height:574px;
+    /* height:574px; */
+    height: 89vh;
 }
 
 .it{
-    height: 60px;
+    height: 9.88vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -195,12 +197,12 @@ body{
 
 .cartb{
     font-size: 40px;
-    margin-left: 72vw;
+    margin-left: 71vw;
 
 }
 
 button{
-    font-size: 40px;
+    font-size: 33px;
     width: 30px;
 }
 
@@ -213,3 +215,9 @@ button{
     justify-content: center;
     border-radius: 10px;
 }
+
+/* .cfoot{
+    width: 98.9vw;
+    height: 80px;
+    background-color: #222;
+} */
