@@ -1,7 +1,7 @@
 # Modern Mart
 
 - Partially done frontend
-- page-link: https://sumansekharsahoo.github.io/OOPs-Project-Frontend/
+- page-link: https://sumansekharsahoo.github.io/ModernMart/
 
 (i) Login Page  
 (ii) Forgot Credentials  
