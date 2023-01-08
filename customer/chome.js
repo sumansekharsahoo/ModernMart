@@ -154,7 +154,9 @@ document.querySelector('.subt9').addEventListener('click',function(){
 
 let tcart=0;
 let flag1=0, flag2=0, flag3=0, flag4=0, flag5=0, flag6=0, flag7=0, flag8=0, flag9=0;
-document.querySelector('.subtc').addEventListener('click', function(){
+
+function icart(x){
+    document.querySelector(x).addEventListener('click', function(){
     if(count1>0){
         flag1=1;
     }
@@ -183,36 +185,41 @@ document.querySelector('.subtc').addEventListener('click', function(){
     else{
         flag4=0;
     }
-        // if(count5>0){
-            //     flag5=1;
-            // }
-            // else{
-                //     flag1=0;
-                // }
-                // if(count6>0){
-                    //     flag6=1;
-                    // }
-                    // else{
-                        //     flag1=0;
-                        // }
-                        // if(count7>0){
-                            //     flag7=1;
-                            // }
-                            // else{
-                                //     flag1=0;
-                                // }
-    // if(count8>0){
-    //     flag8=1;
-    // }
-    // else{
-        //     flag1=0;
-        // }
-        // if(count9>0){
-            //     flag9=1;
-            // }
-            // else{
-                //     flag1=0;
-                // }
+
+    if(count5>0){
+        flag5=1;
+    }
+    else{
+        flag5=0;
+    }
+
+    if(count6>0){
+        flag6=1;
+    }
+    else{
+        flag6=0;
+    }
+
+    if(count7>0){
+        flag7=1;
+    }
+    else{
+        flag7=0;
+    }
+
+    if(count8>0){
+        flag8=1;
+    }
+    else{
+        flag8=0;
+    }
+
+    if(count9>0){
+        flag9=1;
+    }
+    else{
+        flag9=0;
+    }
     tcart=flag1+flag2+flag3+flag4+flag5+flag6+flag7+flag8+flag9;
     console.log("hello:" +tcart);
 
@@ -220,5 +227,25 @@ document.querySelector('.subtc').addEventListener('click', function(){
     document.querySelector('.cartnum').textContent=tcart;
 
 })
+}
+
+icart('.subt1');
+icart('.subt2');
+icart('.subt3');
+icart('.subt4');
+icart('.subt5');
+icart('.subt6');
+icart('.subt7');
+icart('.subt8');
+icart('.subt9');
+icart('.add1');
+icart('.add2');
+icart('.add3');
+icart('.add4');
+icart('.add5');
+icart('.add6');
+icart('.add7');
+icart('.add8');
+icart('.add9');
 
 
