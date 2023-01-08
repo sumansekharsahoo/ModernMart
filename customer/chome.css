@@ -60,6 +60,8 @@ body{
 
 .wlc{
     width: auto;
+    display: flex;
+    align-items: center;
 }
 
 .wlctxt{
@@ -83,7 +85,7 @@ body{
 
 .hcart{
     font-size: 30px;
-    margin-left: 31vw;
+    margin-left: 29vw;
     display: flex;
     align-items: center;
 }
