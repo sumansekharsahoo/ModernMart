@@ -58,6 +58,10 @@ body{
     background-color: rgb(16, 16, 16);
 }
 
+.wlc{
+    width: auto;
+}
+
 .wlctxt{
     margin-left: 2px;
     font-size: 40px;
@@ -153,16 +157,16 @@ body{
 }
 
 .pnametxt{
-    margin-left: 250px;
+    margin-left: 16vw;
 }
 .pcatxt{
-    margin-left: 250px;
+    margin-left: 16vw
 }
 .pricetxt{
-    margin-left: 150px;
+    margin-left: 8.5vw;
 }
 .padd{
-    margin-left: 100px;
+    margin-left: 8vw;
 }
 
 .pitemlist{
@@ -189,7 +193,7 @@ body{
 
 .cartb{
     font-size: 40px;
-    margin-left: 70.5vw;
+    margin-left: 70vw;
 
 }
 
