@@ -15,13 +15,13 @@ body{
 .content{
     height: 11vh;
     width: 4.5%;
-    background-color: rgb(255, 255, 148);
-    background-color: rgb(255, 234, 0);
+    /* background-color: rgb(255, 255, 148); */
+    background-color: rgb(255, 225, 0);
 }
 .mheader{
     height: 11vh;
     width: 96.5%;
-    background-color: rgb(255, 234, 0);
+    background-color: rgb(255, 225, 0);
     /* background-color: rgb(255, 255, 148); */
     
     display: flex;
@@ -85,14 +85,14 @@ body{
 }
 
 .hcart{
-    font-size: 30px;
-    margin-left: 29vw;
+    font-size: 36px;
+    margin-left: 27.5vw;
     display: flex;
     align-items: center;
 }
 
 .ion{
-    font-size: 35px;
+    font-size: 42px;
     margin-right: 5px;
 }
 
