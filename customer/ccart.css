@@ -1,9 +1,7 @@
 .content {
     z-index: -5px;
 }
-body{
-    background-color: #222;
-}
+
 
 .cart {
     border-top: 1px solid transparent;
@@ -14,7 +12,7 @@ body{
 
 .header{
     width: 100vw;
-    height: 80px;
+    height: 71px;
     display: flex;
     align-items: center;
     justify-content: center;
