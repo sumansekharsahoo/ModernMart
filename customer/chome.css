@@ -16,11 +16,13 @@ body{
     height: 11vh;
     width: 4.5%;
     background-color: rgb(255, 255, 148);
+    background-color: rgb(255, 234, 0);
 }
 .mheader{
     height: 11vh;
     width: 96.5%;
-    background-color: rgb(255, 255, 148);
+    background-color: rgb(255, 234, 0);
+    /* background-color: rgb(255, 255, 148); */
     
     display: flex;
     align-items: center;
@@ -68,8 +70,11 @@ body{
 }
 
 .homelogo{
-    margin-left: 26vw;
-    height: 60px;
+    
+    height: 55px;
+    margin-top: 2.5px;
+    padding: 4px 10px;
+    
 }
 
 .hcart{
@@ -182,7 +187,7 @@ body{
     background-color: rgb(236, 236, 236);
 }
 
-.cart{
+.cartb{
     font-size: 40px;
     margin-left: 70.5vw;
 
@@ -191,4 +196,14 @@ body{
 button{
     font-size: 40px;
     width: 30px;
+}
+
+.log{
+    margin-left: 27vw;
+    height: 65px;
+    width: auto;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
 }
