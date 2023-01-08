@@ -21,11 +21,69 @@
 
 
     <!-- wallet css:link -->
+    <link rel="stylesheet" href="sidebar.css" />
     <link rel="stylesheet" href="wallet.css" />
   </head>
   <body>
     <!-- navbar component include -->
     <!-- <div class="spacenav"></div> -->
+    <div class="wrapper">
+      <input type="checkbox" id="btn" hidden />
+      <label for="btn" class="menu-btn">
+        <ion-icon name="reorder-three"></ion-icon>
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+      </label>
+      <nav id="sidebar">
+        <div class="title">
+          <img src="images/website_logo.png" alt="logo" class="logo" />
+        </div>
+        <ul class="list-items">
+          <li class="home">
+            <a href="chome.html"
+              ><i class="fas fa-home"></i
+              ><ion-icon name="home-outline"></ion-icon
+              ><span class="space">Home</span></a
+            >
+          </li>
+          <li class="cart">
+            <a href="ccart.html"
+              ><i class="fas fa-sliders-h"></i
+              ><ion-icon name="cart-outline"></ion-icon
+              ><span class="space">Cart</span></a
+            >
+          </li>
+          <li class="history">
+            <a href="chistory.html"
+              ><i class="fas fa-address-book"></i
+              ><ion-icon name="repeat-outline"></ion-icon
+              ><span class="space">Order History</span></a
+            >
+          </li>
+          <li class="wallet">
+            <a href="wallet.html"
+              ><i class="fas fa-cog"></i
+              ><ion-icon name="wallet-outline"></ion-icon
+              ><span class="space">Wallet</span></a
+            >
+          </li class="settings">
+          <li>
+            <a href="csettings.html"
+              ><i class="fas fa-stream"></i
+              ><ion-icon name="settings-outline"></ion-icon
+              ><span class="space">Settings</span></a
+            >
+          </li>
+          <li>
+            <a href="index.html"
+              ><i class="fas fa-user"></i
+              ><ion-icon name="log-out-outline"></ion-icon
+              ><span class="space">Log out</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="whead">
       <img src="wallet.png" alt="wallet" class="wimg" /><span class="wtext"
         >&nbsp;Wallet</span

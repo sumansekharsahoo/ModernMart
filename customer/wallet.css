@@ -10,6 +10,16 @@ body {
     background-color: rgb(30, 30, 30);
 }
 
+.content {
+    z-index: -5px;
+}
+
+.wallet {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    background-color: rgba(241, 241, 241, 0.406);
+    box-shadow: 0 0px 10px 3px #222;
+}
 
 .wtext {
     font-size: 7.8vh;
@@ -24,11 +34,11 @@ body {
     margin-bottom: 7vh;
 }
 
-ion-icon {
+/* ion-icon {
     font-size: 4.7vh;
     margin-top: .1vh;
     margin-left: 5.5vw;
-}
+} */
 
 .wimg {
     height: 7.2vh;
