@@ -22,8 +22,8 @@ The home page (after login) has items (blank at present) that can be added to ca
 
 ## Wallet Credentials:                                                                                                                                                  
 ```
-username: suman                                                                                                                                         
-password: wsuman                                                                                                                                        
+username: suman                                                                                                                    
+password: wsuman                                                                                       
 ```
 
 <check "MODERN MART" pdf (above) to see how we planned to design our website>
