@@ -25,4 +25,4 @@ password: wsuman
 <check "MODERN MART" pdf (above) to see how we planned to design our website>
 
 Design and Development done by Suman Sekhar Sahoo (single-handedly)                                                                                                                        
-(Designed logo using Canva; used icons from ionicons (https://ionic.io/ionicons)) 
+~Designed logo using Canva; used icons from ionicons (https://ionic.io/ionicons)
