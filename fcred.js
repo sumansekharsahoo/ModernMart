@@ -6,7 +6,7 @@ let year = String(date.getFullYear());
 if(day.length===1){
     day="0"+day;
 }
-if(month.length====1){
+if(month.length===1){
     month="0"+month;
 }
 let dstr= day+month+year;
