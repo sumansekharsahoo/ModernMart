@@ -196,3 +196,138 @@ button:hover{
     color: rgb(83, 83, 83);
     
 }
+
+@media (max-width: 500px) {
+    body {
+           
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+    .clogin-left {
+        width: 100vw;
+        height:48vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .clogin-logo {
+        width: 160px;
+        margin: 20px 0px 0 20px 
+        
+    }
+
+    .clogin-ad {
+        align-self: center;
+        width: 350px
+    }
+    .clogin-right {
+        background-color: rgb(253, 31, 27);
+        /* background-color: rgb(222, 222, 222); */
+        width: 100vw;
+        height: 52vh;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        /* font-family: 'Syncopate', sans-serif;*/
+        font-family: 'Days One', sans-serif;
+        font-weight: bolder;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+
+    }
+    .welcome {
+        display: none;
+    }
+    .login-box{
+        margin-top: 15px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .login {
+        /* color: rgb(0, 0, 0); */
+        color: rgb(255, 225, 0);
+        font-size: 40px;
+        display: inline;
+        margin: 8px 0px;
+
+        
+    }
+    input[type=text] {
+        width: 300px;
+        height: 43px;
+        font-size: 20px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 1px solid rgb(83, 83, 83);
+        border-radius: 10px;
+        margin: 0px;
+    }
+    input[type=password] {
+        width: 300px;
+        height: 43px;
+        padding: 12px 20px;
+        font-size: 20px;
+        box-sizing: border-box;
+        border: 1px solid rgb(83, 83, 83);
+        border-radius: 10px;
+        margin: 10px 0px;
+    }
+
+    .clogin-inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fsub{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .csubmit {
+        padding: 12px 13px;
+        background-color: rgb(255, 242, 0);
+        font-family: 'Days One', sans-serif;
+        margin: 0px 0px;
+        border: 3.8px solid rgb(0, 0, 0);
+        border-radius: 30px;
+        font-size: 20px;
+        cursor: pointer;
+        justify-content: center;
+    }
+        .incpass {
+            display: none;
+        }
+        .admin-and-fpass{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+        }
+        .csign-up {
+            padding: 12px 20px;
+            background-color: rgb(255, 242, 0);
+            font-family: 'Days One', sans-serif;
+            margin: 8px 0px;
+            border: 3.8px solid rgb(0, 0, 0);
+            border-radius: 30px;
+            font-size: 15px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .sign-up {
+            margin-top: 15px;
+        }
+        .new-user {
+            color: yellow;
+            font-size: 35px;
+            margin-bottom: 1.8vh;
+        }
+
+}
+
