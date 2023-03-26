@@ -71,7 +71,6 @@ input[type=text] {
     margin-left: 15px;
     font-size: 30px;
         margin-top: 28px;
-        margin-top: 28px;
         height: 60px;
 }
 
@@ -168,4 +167,76 @@ input[type=text] {
     visibility: hidden;
     margin-top: 8px;
     margin-left: 35%;
+}
+
+@media (max-width:450px){
+    .fbody{
+        margin-top: 50px;
+    }
+    .clogin-logo{
+        width: 179px;
+        display: inline-block;
+        margin: 19px;
+    }
+
+    .fcard{
+        width: 350px;
+        height:250px
+    }
+    .fhtxt{
+        font-size: 30px;
+    }
+    .txt{
+        font-size:19px;
+        /* margin:0; */
+        align-self: center;
+        margin-top: 38px;
+    }
+    .math{
+        margin-top:22px;
+        align-items: center;
+        height: 50px;
+    }
+    .ion{
+        display: none;
+    }
+    ion-icon{
+        display: none;
+    }
+    .arr{
+        display: inline-block;
+    }
+    input[type=text] {
+        width: 155px;
+        padding: 9px 20px;
+        margin: 8px 6px;
+        box-sizing: border-box;
+        border: 1px solid rgb(83, 83, 83);
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    .phno{
+        align-items: center;
+        height: 50px;
+    }
+    .pswd{
+        align-items: center;
+        height: 50px;
+    }
+    .star1{
+        margin-top: 15px;
+    }
+    .star2{
+        margin-top: 15px;
+    }
+    .hmion{
+        display: inline-block;
+    }
+    .hid1{
+        font-size: 22px;
+    }
+    .hid2{
+        font-size: 22px;
+    }
+        
 }

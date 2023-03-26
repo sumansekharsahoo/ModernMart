@@ -193,7 +193,7 @@ a:visited {
 
     input[type=text] {
         width: 71vw;
-        height: 50px;
+        height: 43px;
         padding: 12px 20px;
         margin: 2px 60px;
         box-sizing: border-box;
@@ -219,7 +219,7 @@ a:visited {
     }
     input[type=password] {
         width: 71vw;
-        height: 50px;
+        height: 43px;
         padding: 12px 20px;
         font-size: 25px;
         box-sizing: border-box;
