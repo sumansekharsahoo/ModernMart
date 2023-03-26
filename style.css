@@ -40,7 +40,9 @@ body{
 }
 
 .clogin-ad{
-    margin: .2vh 13vh;
+    /* margin: .2vh 13vh; */
+    /* margin-top: .2vh; */
+    align-self: center;
     width: 85vh
 }
 
@@ -63,14 +65,14 @@ body{
 .login{
     /* color: rgb(0, 0, 0); */
     color: rgb(255, 225, 0);
-    font-size: 5vh;
+    font-size: 6vh;
     margin-bottom: 2vh;
     margin-left: 60px;
 }
 
 input[type=text] {
-    width: 450px;
-    height: 50px;
+    width: 32vw;
+    height: 7vh;
     font-size: 20px;
     padding: 12px 20px;
     margin: 8px 60px;
@@ -87,8 +89,8 @@ input[type=text]::placeholder{
 
 
 input[type=password] {
-    width: 450px;
-    height: 50px;
+    width: 32vw;
+    height: 7vh;
     padding: 12px 20px;
     font-size: 20px;
     margin: 8px 60px;
@@ -122,6 +124,7 @@ input[type=submit]{
     color: rgb(17, 17, 255);
     font-family: 'Roboto Condensed', sans-serif;
     list-style-position: inside;
+    font-size: 2.5vh;
 }
 
 a{
@@ -148,7 +151,7 @@ a:visited {
         margin: 8px 50px;
         border: 3.8px solid rgb(0, 0, 0);
         border-radius: 30px;
-        font-size: 23px;
+        font-size: 3vh;
         cursor: pointer;
 }
 
@@ -170,7 +173,8 @@ a:visited {
         margin: 8px 60px;
         border: 3.8px solid rgb(0, 0, 0);
         border-radius: 30px;
-        font-size: 23px;
+        /* font-size: 23px; */
+        font-size: 3vh;
         cursor: pointer;
 }
 
@@ -197,7 +201,7 @@ button:hover{
     
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     body {
            
             display: flex;
@@ -257,7 +261,7 @@ button:hover{
         
     }
     input[type=text] {
-        width: 300px;
+        width: 75vw;
         height: 43px;
         font-size: 20px;
         padding: 12px 20px;
@@ -267,7 +271,7 @@ button:hover{
         margin: 0px;
     }
     input[type=password] {
-        width: 300px;
+        width: 75vw;
         height: 43px;
         padding: 12px 20px;
         font-size: 20px;
@@ -332,5 +336,167 @@ button:hover{
             margin-bottom: 5px;
         }
 
+}
+
+@media (min-width: 480px) and (max-width:1150px) {
+    body {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clogin-left {
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .clogin-logo {
+        width: 30vw;
+        margin: 20px 0px 0 20px
+    }
+
+    .clogin-ad {
+        align-self: center;
+        width: 74vw
+    }
+
+    .clogin-right {
+        background-color: rgb(253, 31, 27);
+        /* background-color: rgb(222, 222, 222); */
+        width: 100vw;
+        height: fit-content;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        /* font-family: 'Syncopate', sans-serif;*/
+        font-family: 'Days One', sans-serif;
+        font-weight: bolder;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .welcome {
+        display: none;
+    }
+
+    .login-box {
+        margin-top: 18px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .login {
+        /* color: rgb(0, 0, 0); */
+        color: rgb(255, 225, 0);
+        font-size: 9vw;
+        display: inline;
+        margin: 10px 0px;
+
+
+    }
+
+    input[type=text] {
+        width: 75vw;
+        height: 8.5vw;
+        font-size: 25px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 1px solid rgb(83, 83, 83);
+        border-radius: 10px;
+        margin: 0px;
+    }
+
+    input[type=password] {
+        width: 75vw;
+        height: 8.5vw;
+        padding: 12px 20px;
+        font-size: 25px;
+        box-sizing: border-box;
+        border: 1px solid rgb(83, 83, 83);
+        border-radius: 10px;
+        margin: 13px 0px;
+    }
+
+    .clogin-inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fsub {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .csubmit {
+        padding: 12px 13px;
+        background-color: rgb(255, 242, 0);
+        font-family: 'Days One', sans-serif;
+        margin: 0px 0px;
+        border: 3.8px solid rgb(0, 0, 0);
+        border-radius: 8.5vw;
+        font-size: 5vw;
+        cursor: pointer;
+        justify-content: center;
+    }
+
+    .incpass {
+        display: none;
+    }
+
+    .admin-and-fpass {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .csign-up {
+        padding: 12px 20px;
+        background-color: rgb(255, 242, 0);
+        font-family: 'Days One', sans-serif;
+        margin: 8px 0px;
+        border: 3.8px solid rgb(0, 0, 0);
+        border-radius: 8.5vw;
+        font-size: 4vw;
+        margin-left: 5.8vw;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sign-up {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .new-user {
+        color: yellow;
+        font-size: 5.2vw;
+        margin-bottom: 5px;
+    }
+    .option-list {
+        font-size: 3vw;
+    }
+    input[type=text]::placeholder {
+        font-family: 'Roboto Condensed', sans-serif;
+        color: rgb(59, 59, 59);
+        font-size: 3.5vw;
+    }
+    input[type=password]::placeholder {
+        font-family: 'Roboto Condensed', sans-serif;
+        color: rgb(37, 37, 37);
+        font-size: 3.5vw;
+    }
 }
 
