@@ -206,9 +206,10 @@ button:hover{
     }
     .clogin-left {
         width: 100vw;
-        height:48vh;
+        height:fit-content;
         display: flex;
         flex-direction: column;
+        margin-bottom: 10px;
     }
     .clogin-logo {
         width: 160px;
@@ -224,7 +225,7 @@ button:hover{
         background-color: rgb(253, 31, 27);
         /* background-color: rgb(222, 222, 222); */
         width: 100vw;
-        height: 52vh;
+        height: fit-content;
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
         /* font-family: 'Syncopate', sans-serif;*/
@@ -239,7 +240,7 @@ button:hover{
         display: none;
     }
     .login-box{
-        margin-top: 15px;
+        margin-top: 18px;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -251,7 +252,7 @@ button:hover{
         color: rgb(255, 225, 0);
         font-size: 40px;
         display: inline;
-        margin: 8px 0px;
+        margin: 10px 0px;
 
         
     }
@@ -273,7 +274,7 @@ button:hover{
         box-sizing: border-box;
         border: 1px solid rgb(83, 83, 83);
         border-radius: 10px;
-        margin: 10px 0px;
+        margin: 13px 0px;
     }
 
     .clogin-inputs{
@@ -301,7 +302,7 @@ button:hover{
             display: none;
         }
         .admin-and-fpass{
-            margin-top: 10px;
+            margin-top: 15px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -314,19 +315,21 @@ button:hover{
             margin: 8px 0px;
             border: 3.8px solid rgb(0, 0, 0);
             border-radius: 30px;
-            font-size: 15px;
+            font-size: 18px;
+            margin-left: 50px;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
         }
         .sign-up {
-            margin-top: 15px;
+            margin-top: 30px;
+            margin-bottom: 30px;
         }
         .new-user {
             color: yellow;
             font-size: 35px;
-            margin-bottom: 1.8vh;
+            margin-bottom: 5px;
         }
 
 }
