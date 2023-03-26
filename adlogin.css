@@ -144,3 +144,121 @@ a:visited {
     font-size: 27px;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    body {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clogin-left {
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .clogin-logo {
+        width: 160px;
+        margin: 20px 0px 0 20px
+    }
+
+    .clogin-ad {
+        align-self: center;
+        width: 350px
+    }
+    .clogin-right {
+        background-color: rgb(253, 31, 27);
+        /* background-color: rgb(222, 222, 222); */
+        width: 100vw;
+        height: fit-content;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        /* font-family: 'Syncopate', sans-serif;*/
+        font-family: 'Days One', sans-serif;
+        font-weight: bolder;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .clogin-inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input[type=text] {
+        width: 71vw;
+        height: 50px;
+        padding: 12px 20px;
+        margin: 2px 60px;
+        box-sizing: border-box;
+        border: 1px solid rgb(83, 83, 83);
+        border-radius: 10px;
+    }
+    .login-box {
+        margin-top: 18px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .login {
+        /* color: rgb(0, 0, 0); */
+        color: rgb(255, 225, 0);
+        font-size: 40px;
+        display: inline;
+        margin: 10px 0px;
+
+
+    }
+    input[type=password] {
+        width: 71vw;
+        height: 50px;
+        padding: 12px 20px;
+        font-size: 25px;
+        box-sizing: border-box;
+        border: 1px solid rgb(83, 83, 83);
+        border-radius: 10px;
+        
+    }
+
+    .admin-and-fpass {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        font-size: 18px;
+    }
+    .sign-up {
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .new-user {
+        color: yellow;
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    .csign-up {
+        padding: 12px 20px;
+        background-color: rgb(255, 242, 0);
+        font-family: 'Days One', sans-serif;
+        margin: 8px 0px;
+        border: 3.8px solid rgb(0, 0, 0);
+        border-radius: 30px;
+        font-size: 18px;
+        margin-left: 50px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
