@@ -327,13 +327,16 @@ button:hover{
             justify-content: center;
         }
         .sign-up {
-            margin-top: 30px;
+            margin-top: 25px;
             margin-bottom: 30px;
         }
         .new-user {
             color: yellow;
             font-size: 35px;
             margin-bottom: 5px;
+        }
+        .option-list{
+            font-size: 20px;
         }
 
 }

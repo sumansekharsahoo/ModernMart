@@ -29,7 +29,7 @@ body {
     align-items: center;
     width: 38vw;
     margin-top: 8vh;
-    margin-left: 31vw;
+    align-self: center;
     background-color: rgb(255, 179, 0);
     border: 1px solid rgb(255, 196, 0);
     border-radius: 29px;
@@ -123,4 +123,42 @@ a {
 a:visited {
     text-decoration: none;
     color: rgb(255, 235, 17);
+}
+
+@media (max-width:480px) {
+    .clogin-logo {
+            width: 160px;
+            margin: 20px 0px 0 20px;
+    }
+    .signup {
+        margin-top: 12vh;
+        width: 88vw;
+        height: fit-content;
+    }
+    .sup-head {
+        font-size: 35px;
+        margin-top: 8px;
+    }
+    input[type=text] {
+        width: 77vw;
+        height: 40px;
+        padding: 10px 20px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 7px;
+    }
+
+    input[type=password] {
+        width: 77vw;
+        height: 40px;
+        padding: 12px 20px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 7px;
+    }
+    .hrule {
+        width: 88vw;
+    }
 }
