@@ -13,13 +13,13 @@ body{
     display: flex;
 }
 .content{
-    height: 11vh;
+    height: 82px;
     width: 4.5%;
     /* background-color: rgb(255, 255, 148); */
     background-color: rgb(255, 225, 0);
 }
 .mheader{
-    height: 11vh;
+    height: 82px;
     width: 96.5%;
     background-color: rgb(255, 225, 0);
     /* background-color: rgb(255, 255, 148); */
@@ -221,3 +221,266 @@ button{
     height: 80px;
     background-color: #222;
 } */
+
+
+@media (min-width:395px) and (max-width:480px){
+    .wlc {
+        display: none;
+    }
+    .content {
+        height: 60px;
+        width: 0px;
+        /* background-color: rgb(255, 255, 148); */
+        background-color: rgb(255, 225, 0);
+    }
+
+    .mheader {
+        height: 60px;
+        width: 100vw;
+        background-color: rgb(255, 225, 0);
+        /* background-color: rgb(255, 255, 148); */
+
+        display: flex;
+        align-items: center;
+    }
+    .log{
+        height: 52px;
+        margin-left: 34vw;
+        
+    }
+    .homelogo{
+        height: 38px;
+        margin-top: 6px;
+    }
+    .ctext{
+        display: none;
+    }
+    .hcart{
+        margin-left: 52px;
+        font-size: 29px;
+    }
+    .ion{
+        font-size: 38px;
+    }
+    .catg{
+        display: none;
+    }
+    .sepl1{
+        display: none;
+    }
+    .sepl2{
+        display: none;
+    }
+    .phead{
+        width: 100vw;
+        height: 40px;
+    }
+    .ptxt{
+        font-size: 23px;
+    }
+    .pnametxt{
+        margin-left: 4vw;
+    }
+    .pcatxt{
+        /* display: none; */
+        margin-left: 10vw;
+    }
+    .pricetxt{
+        margin-left: 10vw;
+    }
+    .padd{
+        display: none;
+        margin-left: 12vw;
+    }
+    .it{
+        height: 58px;
+    }
+    .cartb{
+        font-size: 30px;
+        margin-left: 325px;
+    }
+    button{
+        font-size: 24px;
+        width: 24px;
+    }
+
+}
+
+
+
+@media (min-width:380px) and (max-width:395px){
+    .wlc {
+        display: none;
+    }
+    .content {
+        height: 60px;
+        width: 0px;
+        /* background-color: rgb(255, 255, 148); */
+        background-color: rgb(255, 225, 0);
+    }
+
+    .mheader {
+        height: 60px;
+        width: 100vw;
+        background-color: rgb(255, 225, 0);
+        /* background-color: rgb(255, 255, 148); */
+
+        display: flex;
+        align-items: center;
+    }
+    .log{
+        height: 52px;
+        margin-left: 32vw;
+        
+    }
+    .homelogo{
+        height: 38px;
+        margin-top: 6px;
+    }
+    .ctext{
+        display: none;
+    }
+    .hcart{
+        margin-left: 44px;
+        font-size: 29px;
+    }
+    .ion{
+        font-size: 38px;
+    }
+    .catg{
+        display: none;
+    }
+    .sepl1{
+        display: none;
+    }
+    .sepl2{
+        display: none;
+    }
+    .phead{
+        width: 100vw;
+        height: 40px;
+    }
+    .ptxt{
+        font-size: 23px;
+    }
+    .pnametxt{
+        margin-left: 4vw;
+    }
+    .pcatxt{
+        /* display: none; */
+        margin-left: 9vw;
+    }
+    .pricetxt{
+        margin-left: 10vw;
+    }
+    .padd{
+        display: none;
+        margin-left: 12vw;
+    }
+    .it{
+        height: 58px;
+    }
+    .cartb{
+        font-size: 30px;
+        margin-left: 305px;
+    }
+    button{
+        font-size: 24px;
+        width: 24px;
+    }
+
+}
+@media(max-width:380px){
+    .wlc {
+        display: none;
+    }
+    .content {
+        height: 60px;
+        width: 0px;
+        /* background-color: rgb(255, 255, 148); */
+        background-color: rgb(255, 225, 0);
+    }
+
+    .mheader {
+        height: 60px;
+        width: 100vw;
+        background-color: rgb(255, 225, 0);
+        /* background-color: rgb(255, 255, 148); */
+
+        display: flex;
+        align-items: center;
+    }
+    .log{
+        height: 52px;
+        margin-left: 30vw;
+        
+    }
+    .homelogo{
+        height: 38px;
+        margin-top: 6px;
+    }
+    .ctext{
+        display: none;
+    }
+    .hcart{
+        margin-left: 38px;
+        font-size: 29px;
+    }
+    .ion{
+        font-size: 38px;
+    }
+    .catg {
+        display: none;
+    }
+
+    .sepl1 {
+        display: none;
+    }
+
+    .sepl2 {
+        display: none;
+    }
+
+    .phead {
+        width: 100vw;
+        height: 40px;
+    }
+
+    .ptxt {
+        font-size: 23px;
+    }
+
+    .pnametxt {
+        margin-left: 4vw;
+    }
+
+    .pcatxt {
+        /* display: none; */
+        margin-left: 9vw;
+    }
+
+    .pricetxt {
+        margin-left: 9vw;
+    }
+
+    .padd {
+        display: none;
+        margin-left: 10vw;
+    }
+
+    .it {
+        height: 58px;
+    }
+
+    .cartb {
+        font-size: 30px;
+        margin-left: 280px;
+    }
+
+    button {
+        font-size: 24px;
+        width: 24px;
+    }
+
+
+}

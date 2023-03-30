@@ -185,10 +185,10 @@
 }
 
 .logo{
-    width: 15.5vw;
-    margin-top: 1.2vh;
-    margin-left: 1.1vh;
-    margin-bottom: 1.2vh ;
+    width: 225px;
+    margin-top: 10px;
+    margin-left: 11px;
+    margin-bottom: 10px ;
 }
 
 
@@ -200,3 +200,16 @@ ion-icon {
     font-size: 30px;
 }
 
+@media (max-width:480px){
+    .logo {
+        width: 190px;
+        margin-left: 37px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .wrapper .menu-btn{
+        height: 34px;
+        width: 39px;
+    }
+    
+}
