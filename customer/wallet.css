@@ -22,8 +22,8 @@ body {
 }
 
 .wtext {
-    font-size: 7.8vh;
-    margin-left: .1vw;
+    font-size: 53px;
+    margin-left: 2px;
 
 }
 
@@ -31,7 +31,10 @@ body {
     width: 100vw;
     height: 71px;
     background-color: rgb(255, 225, 0);
-    margin-bottom: 7vh;
+    margin-bottom: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* ion-icon {
@@ -41,16 +44,17 @@ body {
 } */
 
 .wimg {
-    height: 7.2vh;
-    margin-top: 1vh;
-    margin-left: 42vw;
+    height: 50px;
+    margin-top: 8px;
+    
 }
 
 .wcard {
     width: 50vw;
-    margin-top: 6vh;
+    margin-top: 50px;
     margin-left: 25vw;
-    height: 65vh;
+    /* height: 485px; */
+    height: fit-content;
     display: flex;
     flex-direction: column;
 }
@@ -62,14 +66,14 @@ body {
 
 
 .cbaltxt {
-    font-size: 5vh;
+    font-size: 37px;
     color: white;
     display: inline-block;
     margin-left: 2vw;
 }
 
 .cbalamt {
-    font-size: 5vh;
+    font-size: 37px;
     color: rgb(255, 237, 71);
     display: inline-block;
     margin-right: 2vw;
@@ -78,9 +82,9 @@ body {
 
 
 .topup {
-    margin-top: 1.3vh;
+    margin-top: 10px;
     width: 100%;
-    height: 60vh;
+    
     background-color: rgb(247, 250, 207);
     border-radius: 20px;
     display: flex;
@@ -89,12 +93,13 @@ body {
 }
 
 .tpamt {
-    margin-top: 3vh;
+    margin-top: 21px;
     width: 100%;
     height: auto;
     background-color: #FAEAB1;
     display: flex;
     align-items: center;
+    
 }
 
 .uname {
@@ -114,14 +119,14 @@ body {
 }
 
 .tpbtn {
-    margin-top: 4vh;
-    padding: 1vh 1.2vw 1vh 1vw;
-    height: 8vh;
+    margin: 38px 0px;
+    padding: 10px 17px;
+    
     background-color: rgb(55, 180, 46);
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 3.3vh;
+    font-size: 24px;
     color: azure;
 }
 
@@ -136,10 +141,11 @@ body {
 }
 
 .tptxt {
-    margin-top: 1vh;
     margin-left: 3vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
     width: 100%;
-    height: 10vh;
+    height: 72px;
     /* background-color: aqua; */
     display: flex;
     align-items: center;
@@ -147,13 +153,12 @@ body {
 }
 
 .toptxt {
-    font-size: 5vh;
-    margin-left: 1.5vh;
+    font-size: 40px;
+    margin-left: 8px;
 }
 
 .rechg {
-    width: 9vh;
-
+    width: 71px;
 }
 
 .spacenav {
@@ -170,16 +175,14 @@ body {
 
 .txt {
     margin-left: 2.5vw;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    font-size: 4vh;
+    font-size: 30px;
 }
 
 
 .cur {
-    margin-left: 45px;
+    
     margin-right: 14px;
-    font-size: 5vh;
+    font-size: 35px;
 }
 
 input[type=number] {
@@ -194,7 +197,7 @@ input[type=number] {
 
 input[type=number]::placeholder {
     color: rgb(124, 124, 124);
-    font-size: 2.6vh;
+    font-size: 20px;
 }
 
 input[type=text] {
@@ -209,7 +212,7 @@ input[type=text] {
 
 input[type=text]::placeholder {
     color: rgb(124, 124, 124);
-    font-size: 2.6vh;
+    font-size: 20px;
 }
 
 .ptxt {
@@ -228,11 +231,11 @@ input[type=password] {
 
 input[type=password]::placeholder {
     color: rgb(124, 124, 124);
-    font-size: 2.6vh;
+    font-size: 20px;
 }
 
 .rupee {
-    font-size: 5vh;
+    font-size: 37px;
     color: white;
     display: inline-block;
     margin-left: 23.5vw;
@@ -240,19 +243,97 @@ input[type=password]::placeholder {
 
 .psimg {
     height: 30px;
-    margin-left: 90px;
+    
 }
 
 .incpass{
-    background-color: rgb(255, 166, 57);
-    height: 6vh;
-    width: 16.8vw;
+    background-color: rgb(255, 167, 60);
+    height: 45px;
+    width: 256px;
     margin-left:42vw;
-    margin-top: 6vh;
+    margin-top: 42px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 6px;
     visibility: hidden;
     
+}
+
+.symbox{
+    display: flex;
+    align-items: center;
+}
+.sb1{
+    margin-left: 44px;
+}
+.sb2{
+    margin-left: 91px;
+}
+.sb3{
+    margin-left: 91px;
+}
+
+@media (max-width:480px) {
+    .wimg {
+        height: 48px;
+    }
+    .whead{
+        margin-bottom: 100px;
+    }
+    .wcard{
+        width: 86vw;
+        margin-left: 7vw;
+    }
+    .cbaltxt{
+        font-size: 32px;
+    }
+    .cbalamt{
+        margin-right: 13px;
+    }
+    .rupee{
+        margin-left: 15px;
+    }
+    .topup{
+        margin-top: 5px;
+    }
+    .tptxt{
+        height: 62px;
+    }
+    .txt{
+        font-size: 23px
+    }
+    .rechg{
+        width: 59px;
+    }
+    .toptxt{
+        font-size: 37px;
+    }
+    .tpamt{
+        margin-top: 12px;
+    }
+    .sb1{
+        margin-left: 14px;
+    }
+    .sb2{
+        margin-left: 49px;
+    }
+    .sb3{
+        margin-left: 49px;
+    }
+    input[type=number]{
+        font-size: 20px;
+        width: 31vw;
+    }
+    input[type=text]{
+        width: 31vw;
+        font-size: 20px;
+    }
+    input[type=password]{
+        width: 31vw;
+        font-size: 20px;
+    }
+    .tpbtn{
+        margin: 20px 0px;
+    }
 }

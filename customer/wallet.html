@@ -85,9 +85,11 @@
       </nav>
     </div>
     <div class="whead">
-      <img src="wallet.png" alt="wallet" class="wimg" /><span class="wtext"
-        >&nbsp;Wallet</span
-      >
+      <div class="headlogo">
+        <img src="wallet.png" alt="wallet" class="wimg" /><span class="wtext"
+          >&nbsp;Wallet</span
+        >
+      </div>
     </div>
     <div class="wcard">
       <div class="cbal">
@@ -105,39 +107,45 @@
         <div class="line"></div>
         <div class="tpamt">
           <span class="txt">Topup Amount:</span>
-          <span class="cur">&#8377</span>
-          <form class="fields">
-            <input
-              type="number"
-              name="amount"
-              id="amt"
-              placeholder="Amount in ₹"
-            />
-          </form>
+          <div class="symbox sb1">
+            <span class="cur">&#8377</span>
+            <form class="fields">
+              <input
+                type="number"
+                name="amount"
+                id="amt"
+                placeholder="Amount"
+              />
+            </form>
+          </div>
         </div>
         <div class="uname">
           <span class="txt">Username:</span>
-          <img src="username.png" alt="user" class="psimg">
-          <form class="fields">
-            <input
-              type="text"
-              name="username"
-              id="usname"
-              placeholder="Username"
-            />
-          </form>
+          <div class="symbox sb2">
+            <img src="username.png" alt="user" class="psimg">
+            <form class="fields">
+              <input
+                type="text"
+                name="username"
+                id="usname"
+                placeholder="Username"
+              />
+            </form>
+          </div>
         </div>
         <div class="pwd">
           <span class="txt ptxt">Password:</span>
-          <img src="password.png" alt="pswd" class="psimg">
-          <form class="fields">
-            <input
-              type="password"
-              name="password"
-              id="pswd"
-              placeholder="Password"
-            />
-          </form>
+          <div class="symbox sb3">
+            <img src="password.png" alt="pswd" class="psimg">
+            <form class="fields">
+              <input
+                type="password"
+                name="password"
+                id="pswd"
+                placeholder="Password"
+              />
+            </form>
+          </div>
         </div>
         <button class="tpbtn">SUBMIT</button>
         
