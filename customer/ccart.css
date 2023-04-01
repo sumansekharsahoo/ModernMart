@@ -1,5 +1,5 @@
 .content {
-    z-index: -5px;
+    z-index: -5;
 }
 
 
@@ -8,6 +8,7 @@
     border-bottom: 1px solid transparent;
     background-color: rgba(241, 241, 241, 0.406);
     box-shadow: 0 0px 10px 3px #222;
+    
 }
 
 .header{
@@ -17,18 +18,22 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 225, 0);
+    
 }
 
 .crt{
     display: flex;
     align-items: center;
+    
 }
 
 .crtxt{
     font-size: 45px;
     margin-left: 8px;
+    
 }
 
 .ion{
     font-size: 50px;
+    
 }
